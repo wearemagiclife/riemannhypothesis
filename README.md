@@ -204,7 +204,7 @@ plot_critical_line_zeros(0, 100, 5000, save_path='zeros.png')
 
 1. Riemann, B. (1859). "Über die Anzahl der Primzahlen unter einer gegebenen Größe"
 2. Edwards, H.M. (1974). "Riemann's Zeta Function"
-3. Borwein, P. et al. (2008). "The Riemann Hypothesis: A Resource for the Afficionado and Virtuoso Alike"
+3. Borwein, P. et al. (2008). "The Riemann Hypothesis: A Resource for the Aficionado and Virtuoso Alike"
 
 ## License
 

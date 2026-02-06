@@ -222,7 +222,7 @@ def compute_zeta_grid(
             try:
                 zeta_val = rz.zeta(s)
                 zeta_magnitude[i, j] = abs(zeta_val)
-            except:
+            except (ValueError, OverflowError, ZeroDivisionError):
                 zeta_magnitude[i, j] = np.nan
     
     return real_grid, imag_grid, zeta_magnitude
